@@ -2,20 +2,32 @@
   "name": "wikipedia",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://marziyemonshizadeh.github.io/wikipedia",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.0",
+    "firebase": "^9.12.1",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-lazy-load-image-component": "^1.5.5",
+    "react-onclickoutside": "^6.12.2",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "^5.0.1",
+    "react-use-event-listener": "^1.1.1",
+    "rfs": "^9.0.6",
+    "sass": "^1.55.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

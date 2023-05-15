@@ -1,0 +1,14 @@
+.App {
+  margin:0;
+  overflow: hidden;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.5rem;
+  box-sizing: content-box;
+}
+
+a:active{
+  color: rgb(250, 173, 20);
+}
+
+

@@ -8,6 +8,8 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Open Sans', sans-serif;
 }
+/* .col {
+  display: table-cell; /* Make elements inside the container behave like table cells 
+} */
