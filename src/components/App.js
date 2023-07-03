@@ -37,6 +37,7 @@ function App() {
             <Header/>
 
             <Routes>
+                <Route path="/wikipedia" element={<Main />} />
                 <Route path="/" element={<Main />} />
                 <Route path="createaccount" element={
                   <Suspense fallback='loading...'>
