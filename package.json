@@ -19,6 +19,7 @@
     "react-use-event-listener": "^1.1.1",
     "rfs": "^9.0.6",
     "sass": "^1.55.0",
+    "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

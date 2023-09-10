@@ -13,7 +13,7 @@ const Hero = () => {
     setLoading(true);
     try {
       await logout();
-      history("/");
+      history("/wikipedia");
     } catch {
       alert("Error!");
     }

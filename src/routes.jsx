@@ -1,5 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import Main from "../src/components/main/main";
+import Log from "./components/logIn/login_try";
+import Register from "./components/logIn/register_try";
 
 //import lazyload components
 const LazyContributains = lazy(() =>
@@ -24,6 +26,14 @@ const LazyContactUs = lazy(() =>
 );
 
 let routes = [
+  {
+    path: "/register",
+    element: <Register />,
+  },
+  {
+    path: "/log",
+    element: <Log />,
+  },
   {
     path: "/wikipedia",
     element: (
