@@ -16,8 +16,8 @@ class Sidebar extends Component {
       { txt: "About Wikipedi", url: "/aboutWikipedia" },
       { txt: "Contact us", url: "/contactus" },
       { txt: "Donate", url: "/donate" },
-      { txt: "register", url: "/register" },
-      { txt: "log", url: "/log" },
+      // { txt: "register", url: "/register" },
+      // { txt: "log", url: "/log" },
     ],
     listTwo: [
       "Help",

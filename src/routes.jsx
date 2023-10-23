@@ -1,29 +1,27 @@
 import React, { Suspense, lazy } from "react";
-import Main from "../src/components/main/main";
 import Log from "./components/logIn/login_try";
 import Register from "./components/logIn/register_try";
+import Main from "./pages/main/main";
 
 //import lazyload components
 const LazyContributains = lazy(() =>
-  import("../src/components/Contributains/Contributains")
+  import("./pages/Contributains/Contributains")
 );
 const LazyCreateAccount = lazy(() =>
   import("../src/components/CreateAccount/createAccount")
 );
 const LazyLogin = lazy(() => import("../src/components/logIn/logIn"));
 const LazyAboutWikipedia = lazy(() =>
-  import("../src/components/aboutWikipedia/aboutWikipedia")
+  import("../src/pages/aboutWikipedia/aboutWikipedia")
 );
 const LazyContents = lazy(() =>
   import("../src/components/contentsPage/contents")
 );
-const LazyTalk = lazy(() => import("../src/components/Talk/talk"));
-const LazyDonate = lazy(() => import("../src/components/Donate/Donate"));
-const LazyHero = lazy(() => import("../src/components/hero/hero"));
-const LazyNearby = lazy(() => import("../src/components/nearby/nearby"));
-const LazyContactUs = lazy(() =>
-  import("../src/components/contactUs/contactUs")
-);
+const LazyTalk = lazy(() => import("./pages/Talk/talk"));
+const LazyDonate = lazy(() => import("./pages/Donate/Donate"));
+const LazyHero = lazy(() => import("./pages/hero/hero"));
+const LazyNearby = lazy(() => import("./pages/nearby/nearby"));
+const LazyContactUs = lazy(() => import("./pages/contactUs/contactUs"));
 
 let routes = [
   {

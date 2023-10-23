@@ -1,7 +1,7 @@
 import React from "react";
 
-import Links from "../Links/links";
-import Boxs from "../boxs/boxStructure/boxs";
+import Links from "../../components/Links/links";
+import Boxs from "../../components/boxs/boxStructure/boxs";
 
 const Contributains = () => {
   return (

@@ -2,17 +2,17 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 //import components
+import Links from "../../components/Links/links";
+import Boxs from "../../components/boxs/boxStructure/boxs";
+import BoxTitle from "../../components/boxs/boxTitle/boxTitle";
+import BoxsCaption from "../../components/boxs/boxsCaption/boxsCaption";
+import Navbar from "../../components/navbar/navbar";
 import OtherEreas from "../../components/otherEreas/otherEreas";
 import SisterProject from "../../components/sisterProjects/sisterProjectStructure/sisterProjects";
-import Links from "../Links/links";
-import Boxs from "../boxs/boxStructure/boxs";
-import BoxTitle from "../boxs/boxTitle/boxTitle";
-import BoxsCaption from "../boxs/boxsCaption/boxsCaption";
-import Navbar from "../navbar/navbar";
-import Articles from "../wikipediaLanguages/wikiarticles/articles";
+import Articles from "../../components/wikipediaLanguages/wikiarticles/articles";
 
 //import imgs
-import BoxsImages from "../boxs/boxsImg/boxsImg";
+import BoxsImages from "../../components/boxs/boxsImg/boxsImg";
 
 //style
 import "../../../node_modules/bootstrap/dist/css/bootstrap.css";

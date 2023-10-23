@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { logout, useAuth } from "../fire/firebase";
+import { logout, useAuth } from "../../components/fire/firebase";
 
-import Boxs from "../boxs/boxStructure/boxs";
+import Boxs from "../../components/boxs/boxStructure/boxs";
 
 const Hero = () => {
   const currentUser = useAuth();
