@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from "react";
-import Log from "./components/logIn/login_try";
-import Register from "./components/logIn/register_try";
+// import Log from "./components/logIn/login_try";
+// import Register from "./components/logIn/register_try";
 import Main from "./pages/main/main";
 
 //import lazyload components
@@ -8,15 +8,13 @@ const LazyContributains = lazy(() =>
   import("./pages/Contributains/Contributains")
 );
 const LazyCreateAccount = lazy(() =>
-  import("../src/components/CreateAccount/createAccount")
+  import("../src/pages/CreateAccount/createAccount")
 );
-const LazyLogin = lazy(() => import("../src/components/logIn/logIn"));
+const LazyLogin = lazy(() => import("./pages/logIn/logIn"));
 const LazyAboutWikipedia = lazy(() =>
   import("../src/pages/aboutWikipedia/aboutWikipedia")
 );
-const LazyContents = lazy(() =>
-  import("../src/components/contentsPage/contents")
-);
+const LazyContents = lazy(() => import("../src/pages//contentsPage/contents"));
 const LazyTalk = lazy(() => import("./pages/Talk/talk"));
 const LazyDonate = lazy(() => import("./pages/Donate/Donate"));
 const LazyHero = lazy(() => import("./pages/hero/hero"));
@@ -24,14 +22,14 @@ const LazyNearby = lazy(() => import("./pages/nearby/nearby"));
 const LazyContactUs = lazy(() => import("./pages/contactUs/contactUs"));
 
 let routes = [
-  {
-    path: "/register",
-    element: <Register />,
-  },
-  {
-    path: "/log",
-    element: <Log />,
-  },
+  // {
+  //   path: "/register",
+  //   element: <Register />,
+  // },
+  // {
+  //   path: "/log",
+  //   element: <Log />,
+  // },
   {
     path: "/wikipedia",
     element: (

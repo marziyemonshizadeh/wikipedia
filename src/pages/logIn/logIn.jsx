@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { login, useAuth } from "../fire/firebase";
+import { login, useAuth } from "../../components/fire/firebase";
 
-import Boxs from "../boxs/boxStructure/boxs";
+import Boxs from "../../components/boxs/boxStructure/boxs";
 
 const Login = () => {
   const emailRef = useRef();
