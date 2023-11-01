@@ -4,7 +4,8 @@
 # wikipedia
 
 I created this project with cra
-This project is a simulation of the famous wikipedia website.
+This project is a simulation of the famous wikipedia website
+This project is fully responsive
 
 > Live demo [myWikipedia](https://instagram-clone.iran.liara.run)
 ## Technologies Used
