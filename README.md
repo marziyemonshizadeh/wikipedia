@@ -27,8 +27,13 @@ You can :
 - sign up
 
 ## Screenshots
-![Example screenshot]()
-
+![Example screenshot](./src/assets/Images/screenshots/1.png)
+![Example screenshot](./src/assets/Images/screenshots/2.png)
+![Example screenshot](./src/assets/Images/screenshots/3.png)
+![Example screenshot](./src/assets/Images/screenshots/4.png)
+![Example screenshot](./src/assets/Images/screenshots/5.png)
+![Example screenshot](./src/assets/Images/screenshots/6.png)
+![Example screenshot](./src/assets/Images/screenshots/7.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 ## Project Status
