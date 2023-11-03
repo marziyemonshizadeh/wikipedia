@@ -10,15 +10,13 @@ This project is fully responsive
 > Live demo [myWikipedia](https://instagram-clone.iran.liara.run)
 ## Technologies Used
 
-
-- html ![Static Badge](https://img.shields.io/badge/HTML-red)
-- css ![Static Badge](https://img.shields.io/badge/CSS-blue)
-- bootstrap - version 5 ![Static Badge](https://img.shields.io/badge/Bootstrap5-green)
-- Javascript ![Static Badge](https://img.shields.io/badge/Javascript-yellow)
-- react ![Static Badge](https://img.shields.io/badge/React-blue)
-- firebase ![Static Badge](https://img.shields.io/badge/Firebase-blue)
-- sass ![Static Badge](https://img.shields.io/badge/Sass-pink)
-- ajax 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white) ![VS Code Insiders](https://img.shields.io/badge/VS%20Code%20Insiders-35b393.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ## Features
 
