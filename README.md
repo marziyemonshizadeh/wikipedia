@@ -8,7 +8,8 @@ This project is a simulation of the famous wikipedia website
 This project is fully responsive
 
 <!-- Live demo [myWikipedia](https://instagram-clone.iran.liara.run)-->
-> Live demo [myWikipedia](https://wikipedia-6olh-oyn8o2140-marziehs-projects.vercel.app/)
+<!-- Live demo [myWikipedia](https://wikipedia-6olh-oyn8o2140-marziehs-projects.vercel.app/)-->
+> Live demo [myWikipedia](https://marziyemonshizadeh.github.io/wikipedia/)
 ## Technologies Used
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
