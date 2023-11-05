@@ -8,7 +8,7 @@ This project is a simulation of the famous wikipedia website
 This project is fully responsive
 
 <!-- Live demo [myWikipedia](https://instagram-clone.iran.liara.run)-->
-<!-- Live demo [myWikipedia](https://wikipedia-6olh-oyn8o2140-marziehs-projects.vercel.app/)-->
+Live demo [myWikipedia](https://wikipedia-pi.vercel.app/wikipedia)
 > Live demo [myWikipedia](https://marziyemonshizadeh.github.io/wikipedia/)
 ## Technologies Used
 
